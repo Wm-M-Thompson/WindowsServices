@@ -55,7 +55,7 @@ namespace WindowsService1
 
         private void OnElapsedTime(object source, ElapsedEventArgs e)
         {
-            WriteToFile("Service is started at" + DateTime.Now);
+            WriteToFile("Service is logged at" + DateTime.Now);
         }
         protected override void OnStop()
         {
