@@ -79,3 +79,16 @@ Affected parameters are:
    logtoconsole = 
    logfile = G:\Users\William Thompson\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.InstallLog
    assemblypath = G:\Users\William Thompson\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+Installing assembly 'G:\Users\William Thompson\source\repos\WindowsServices\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = G:\Users\William Thompson\source\repos\WindowsServices\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = G:\Users\William Thompson\source\repos\WindowsServices\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service Service Test...
+Creating EventLog source Service Test in log Application...
+Rolling back assembly 'G:\Users\William Thompson\source\repos\WindowsServices\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = G:\Users\William Thompson\source\repos\WindowsServices\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = G:\Users\William Thompson\source\repos\WindowsServices\WindowsService1\bin\Debug\WindowsService1.exe
+Restoring event log to previous state for source Service Test.

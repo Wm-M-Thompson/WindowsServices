@@ -27,6 +27,9 @@ namespace WindowsService1
             {
                 Directory.CreateDirectory(path);
             }
+            
+            // string filepath = AppDomain.CurrentDomain.BaseDirectory + "\\Logs\\ServiceLog_" + DateTime.Now.Hour.ToString().Replace('/', '_') + DateTime.Now.Date.ToShortDateString().Replace('/', '_') + ".txt";
+            
             string filepath = AppDomain.CurrentDomain.BaseDirectory + "\\Logs\\ServiceLog_" + DateTime.Now.Date.ToShortDateString().Replace('/', '_') + ".txt";
             if (!File.Exists(filepath))
             {
